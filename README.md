@@ -10,6 +10,7 @@
 8.宿主机浏览器访问上面查到的ip:8080就可以看文章了。
 9.如果关机或者退出可能需要重新绑定IP
 
+
 <https://coolshell.org>
 
 740 篇文章列表： https://coolshell.org/articles/
