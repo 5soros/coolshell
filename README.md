@@ -1,4 +1,14 @@
-# Static mirror of CoolShell.cn
+# 运行该程序
+很多人都是用windows系统，写下怎么在windows系统运行该程序
+1.安装WSL（默认ubuntu系统）
+2.打开一个资源浏览器（比如双击某个盘符），左下角，把下载到的coolshell文件复制到root或者其他文件夹
+3.打开WSL（BASH界面），进入coolshell文件所在文件夹
+4.将coolshell.elf文件赋予权限（输入：chmod +x coolshell 回车）
+5.查看WSL的内网IP（输入：ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}' 回车）
+6.绑定IP，端口到该程序（输入：./coolshell -b 上面查到的ip:8080）
+7.执行完上一步，coolshell程序已经运行
+8.宿主机浏览器访问上面查到的ip:8080就可以看文章了。
+9.如果关机或者退出可能需要重新绑定IP
 
 <https://coolshell.org>
 
